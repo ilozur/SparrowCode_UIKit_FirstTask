@@ -13,6 +13,8 @@
 		BEE897412BBACB08006E7B21 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BEE897402BBACB08006E7B21 /* Base */; };
 		BEE897432BBACB09006E7B21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEE897422BBACB09006E7B21 /* Assets.xcassets */; };
 		BEE897462BBACB09006E7B21 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BEE897452BBACB09006E7B21 /* Base */; };
+		BEE897512BBACE0A006E7B21 /* ConstraintsConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE897502BBACE0A006E7B21 /* ConstraintsConfig.swift */; };
+		BEE897532BBACE68006E7B21 /* GradientViewConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE897522BBACE68006E7B21 /* GradientViewConfig.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		BEE897422BBACB09006E7B21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEE897452BBACB09006E7B21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEE897472BBACB09006E7B21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEE897502BBACE0A006E7B21 /* ConstraintsConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintsConfig.swift; sourceTree = "<group>"; };
+		BEE897522BBACE68006E7B21 /* GradientViewConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientViewConfig.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		BEE897382BBACB08006E7B21 /* SparrowCode_UIKit_FirstTask */ = {
 			isa = PBXGroup;
 			children = (
+				BEE8974F2BBACDE2006E7B21 /* Extensions */,
 				BEE897392BBACB08006E7B21 /* AppDelegate.swift */,
 				BEE8973B2BBACB08006E7B21 /* SceneDelegate.swift */,
 				BEE8973D2BBACB08006E7B21 /* ViewController.swift */,
@@ -65,6 +70,15 @@
 				BEE897472BBACB09006E7B21 /* Info.plist */,
 			);
 			path = SparrowCode_UIKit_FirstTask;
+			sourceTree = "<group>";
+		};
+		BEE8974F2BBACDE2006E7B21 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BEE897502BBACE0A006E7B21 /* ConstraintsConfig.swift */,
+				BEE897522BBACE68006E7B21 /* GradientViewConfig.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +153,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEE8973E2BBACB08006E7B21 /* ViewController.swift in Sources */,
+				BEE897512BBACE0A006E7B21 /* ConstraintsConfig.swift in Sources */,
+				BEE897532BBACE68006E7B21 /* GradientViewConfig.swift in Sources */,
 				BEE8973A2BBACB08006E7B21 /* AppDelegate.swift in Sources */,
 				BEE8973C2BBACB08006E7B21 /* SceneDelegate.swift in Sources */,
 			);

@@ -9,11 +9,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let gradientView = UIView()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        constraintsConfig()
+        gradientViewConfig()
     }
-
-
 }
 
